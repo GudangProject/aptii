@@ -70,7 +70,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-xl-6 col-sm-12 col-lg-6">
-					<p class="mb-0 copyright text-sm-center text-lg-start text-white">© {{ date('Y') }} {{ $config->name }} All rights reserved </p>
+					<p class="mb-0 copyright text-sm-center text-lg-start text-white">© {{ date('Y') }} {{ $config->name }} All rights reserved- Powered By : <a href="https://gudangsoft.net">Gudangsoft.net</a>  </p>
 				</div>
 				<div class="col-xl-6 col-sm-12 col-lg-6">
 
