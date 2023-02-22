@@ -50,6 +50,7 @@ class ActivityController extends Controller
                 'no_rekening' => $request->no_rekening,
                 'description' => $request->description,
                 'status' => $request->status,
+                'created_by' => auth()->user()->id,
             ]);
             Alert::success('Success', 'Data kegiatan berhasil ditambahkan.');
             return redirect()->route('activity.index');
@@ -99,6 +100,7 @@ class ActivityController extends Controller
                 'no_rekening' => $request->no_rekening,
                 'description' => $request->description,
                 'status' => $request->status,
+                'created_by' => auth()->user()->id,
             ]);
             Alert::success('Success', 'Data kegiatan berhasil diupdate.');
             return redirect()->route('activity.index');

@@ -34,7 +34,7 @@
 
 				<div class="col-xl-3 col-md-3">
 					<div class="footer-widget mb-5 mb-xl-0">
-						<h5 class="widget-title ">Youtube APTII</h5>
+						<h5 class="widget-title ">Youtube APJI</h5>
                         @php
                             $video = \App\Models\Video::where('status', 1)->orderByDesc('created_at')->limit(4)->get()
                         @endphp
@@ -52,7 +52,7 @@
 						<ul class="list-unstyled footer-links">
 							<li><h6 class="text-white">Phone</h6><a href="#">{{ $config->whatsapp }}</a></li>
 							<li><h6 class="text-white">Email</h6><a href="#">{{ $config->email }}</a></li>
-							<li><h6 class="text-white">Pengurus APTII</h6><a href="https://aptii.or.id/page/pengurus">https://aptii.or.id/page/pengurus</a></li>
+							<li><h6 class="text-white">Pengurus APJI</h6><a href="https://member.apji.org/page/pengurus">pengurus</a></li>
 						</ul>
 						<div class="footer-socials mt-4">
 							<a href="{{ $config->facebook }}"><i class="fab fa-facebook-f"></i></a>
@@ -70,7 +70,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-xl-6 col-sm-12 col-lg-6">
-					<p class="mb-0 copyright text-sm-center text-lg-start text-white">© {{ date('Y') }} APTII All rights reserved </p>
+					<p class="mb-0 copyright text-sm-center text-lg-start text-white">© {{ date('Y') }} APJI All rights reserved </p>
 				</div>
 				<div class="col-xl-6 col-sm-12 col-lg-6">
 

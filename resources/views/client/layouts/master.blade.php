@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ asset('frontend') }}/vendors/animated-headline/animated-headline.css">
 
   <!-- Main Stylesheet -->
-  {{-- <link rel="stylesheet" href="{{ asset('frontend') }}/css/woocomerce.css"> --}}
+  <link rel="stylesheet" href="{{ asset('frontend') }}/css/woocomerce.css">
   <link rel="stylesheet" href="{{ asset('frontend') }}/css/style.css">
   <link rel="stylesheet" href="{{ asset('frontend') }}/css/responsive.css">
 

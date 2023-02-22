@@ -1,0 +1,36 @@
+@section('title')
+    Panduan User -
+@endsection
+<x-master-layouts>
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+                <div class="content-header-left col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-left mb-0">Panduan User</h2>
+                            <div class="breadcrumb-wrapper">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a>
+                                    </li>
+                                    <li class="breadcrumb-item active">Panduan User
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-header-right text-md-right col-md-5 col-12">
+
+                </div>
+            </div>
+            <div class="content-body">
+                <div class="blog-list-wrapper">
+                    <iframe src="{{ asset('storage/files/guide').'/'.$data->file }}" align="top" height="620" width="100%" frameborder="0" scrolling="auto"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</x-master-layouts>

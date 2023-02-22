@@ -10,6 +10,7 @@ use App\Models\JournalCollaboration;
 use App\Models\Membership;
 use App\Models\Prosiding\Agenda;
 use App\Models\Prosiding\ProsidingNaskah;
+use App\Models\User;
 use App\Models\Video;
 use Butschster\Head\Facades\Meta;
 use RobertSeghedi\News\Models\Article;
@@ -45,11 +46,15 @@ class ScreensController extends Controller
         return view('frontend.events.internasional');
     }
 
-    public function journals(){
-        HomeController::meta('Jurnal Terafiliasi Asosiasi APTII');
+    public function journals(Request $request){
+        HomeController::meta('Jurnal Terafiliasi Asosiasi APJI');
 
-        // $data = ProsidingNaskah::orderByDesc('created_at')->paginate(12);
-        $data = JournalCollaboration::orderByDesc('created_at')->where('status', true)->paginate(20);
+        if($request->search){
+            $data = JournalCollaboration::where('title', 'LIKE', "%{$request->search}%")->orderByDesc('created_at')->where('status', true)->paginate(20);
+            // dd($uid);
+        }else{
+            $data = JournalCollaboration::orderByDesc('created_at')->where('status', true)->paginate(20);
+        }
 
         return view('client.screens.journals', [
             'data'          => $data,
@@ -72,10 +77,16 @@ class ScreensController extends Controller
         ]);
     }
 
-    public function anggota(){
+    public function anggota(Request $request){
         HomeController::meta('Anggota');
 
-        $data = Membership::orderByDesc('created_at')->paginate(20);
+        if($request->search){
+            $uid  = User::where('name', 'LIKE', "%{$request->search}%")->pluck('id');
+            $data = Membership::whereIn('user_id', $uid)->orderBy('created_at')->paginate(20);
+            // dd($uid);
+        }else{
+            $data = Membership::orderBy('created_at')->paginate(20);
+        }
 
         return view('client.screens.anggota', [
             'data'          => $data,

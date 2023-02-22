@@ -7,7 +7,7 @@ return [
      * Meta title section
      */
     'title' => [
-        'default' => 'APTII',
+        'default' => 'APJI',
         'separator' => '-',
         'max_length' => 255,
     ],

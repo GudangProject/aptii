@@ -107,7 +107,7 @@
                                                         <div class="col-12">
                                                             <div class="form-group">
                                                                 <label><h5>Link SK Anggota</h5></label><br>
-                                                                <a href="{{ $data->sk_anggota }}" class="badge badge-light-primary">{{ $data->sk_anggota ?? 'belum tersedia' }}</a>
+                                                                <a href="{{ $data->sk_url }}" class="badge badge-light-primary">{{ $data->sk_url ?? 'belum tersedia' }}</a>
                                                             </div>
                                                         </div>
                                                     </div>

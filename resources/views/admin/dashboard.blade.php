@@ -1,5 +1,5 @@
 @section('title')
-    APTII -
+    APJI -
 @endsection
 <x-master-layouts>
 @include('sweetalert::alert')

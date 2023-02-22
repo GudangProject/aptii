@@ -52,6 +52,9 @@
             </li>
             @endrole
 
+            <li class="{{ request()->routeIs('user.guide') ? 'active' : '' }} nav-item"><a class="d-flex align-items-center" href="{{ route('user.guide') }}"><i data-feather="book-open"></i><span class="menu-title text-truncate" data-i18n="User">Panduan</span></a>
+            </li>
+
             @role('admin|super admin|writer')
             <li class="navigation-header"><span data-i18n="Apps &amp; Pages">Data</span><i data-feather="more-horizontal"></i>
             </li>
@@ -134,6 +137,8 @@
             <li class="{{ request()->routeIs('users.index') ? 'active' : '' }} nav-item"><a class="d-flex align-items-center" href="{{ route('users.index') }}"><i data-feather="users"></i><span class="menu-title text-truncate" data-i18n="User">Users</span></a>
             </li>
             <li class="{{ request()->routeIs('role-permission.index') ? 'active' : '' }} nav-item"><a class="d-flex align-items-center" href="{{ route('role-permission.index') }}"><i data-feather="user-check"></i><span class="menu-title text-truncate" data-i18n="User">Manajemen User</span></a>
+            </li>
+            <li class="{{ request()->routeIs('guides.index') ? 'active' : '' }} nav-item"><a class="d-flex align-items-center" href="{{ route('guides.index') }}"><i data-feather="book-open"></i><span class="menu-title text-truncate" data-i18n="User">Panduan User</span></a>
             </li>
             @endrole
 

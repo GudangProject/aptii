@@ -40,7 +40,6 @@ class UserSettingController extends Controller
 
     public function update(Request $request, $id)
     {
-        // dd($request->image);
         $imageName = null;
         try {
             if($request->image != null){
@@ -52,7 +51,7 @@ class UserSettingController extends Controller
                 $request->image->storeAs('public/images/users/',$imageName);
             }
 
-            $input  = $request->except(['_token', 'company', 'image']);
+            $input  = $request->except(['_token', 'image']);
             $user = User::findOrFail($id);
             if($imageName != null){
                 $user->profile_photo_path = $imageName;
