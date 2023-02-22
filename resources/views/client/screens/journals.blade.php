@@ -4,7 +4,11 @@
           <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-8">
               <div class="title-block">
+<<<<<<< HEAD
                 <h1>Jurnal Terafiliasi Asosiasi APJI </h1>
+=======
+                <h1>Jurnal Terafiliasi Asosiasi {{ website()->name }} </h1>
+>>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3
                 <ul class="header-bradcrumb justify-content-center">
                   <li><a href="/">Home</a></li>
                   <li class="active" aria-current="page">Jurnal Afiliasi</li>

@@ -47,7 +47,11 @@ class ScreensController extends Controller
     }
 
     public function journals(Request $request){
+<<<<<<< HEAD
         HomeController::meta('Jurnal Terafiliasi Asosiasi APJI');
+=======
+        HomeController::meta('Jurnal Terafiliasi Asosiasi'.website()->name);
+>>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3
 
         if($request->search){
             $data = JournalCollaboration::where('title', 'LIKE', "%{$request->search}%")->orderByDesc('created_at')->where('status', true)->paginate(20);

@@ -9,4 +9,8 @@
             @livewire('asosiasi.guide-table')
         </div>
     </div>
+<<<<<<< HEAD
 </x-master-layouts>
+=======
+</x-master-layouts>
+>>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3

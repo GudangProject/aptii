@@ -18,7 +18,7 @@ use RobertSeghedi\News\Models\Article;
 class HomeController extends Controller
 {
     public function index(){
-        self::meta('Beranda');
+        self::meta('Home');
         $statistics = [
             'posts' => PostArticles::where('status', true)->get()->count(),
             'users' => User::where('status', true)->get()->count(),

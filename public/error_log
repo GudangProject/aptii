@@ -1055,3 +1055,68 @@ Stack trace:
 [04-Feb-2023 23:05:19 Asia/Jakarta] PHP Deprecated:  Optional parameter $modul declared before required parameter $filename is implicitly treated as a required parameter in /home/jurn7774/public_html/member.apji.org/aptii/app/ImageProses.php on line 280
 [05-Feb-2023 22:35:43 Asia/Jakarta] PHP Deprecated:  Optional parameter $modul declared before required parameter $filename is implicitly treated as a required parameter in /home/jurn7774/public_html/member.apji.org/aptii/app/ImageProses.php on line 280
 [06-Feb-2023 10:53:58 Asia/Jakarta] PHP Deprecated:  Optional parameter $modul declared before required parameter $filename is implicitly treated as a required parameter in /home/jurn7774/public_html/member.apji.org/aptii/app/ImageProses.php on line 280
+[22-Feb-2023 02:53:59 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/jurn7774/public_html/member.apji.org/aptii/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Feb-2023 02:54:00 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/jurn7774/public_html/member.apji.org/aptii/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Feb-2023 02:54:01 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/jurn7774/public_html/member.apji.org/aptii/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Feb-2023 02:54:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/jurn7774/public_html/member.apji.org/aptii/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[22-Feb-2023 02:54:08 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/jurn7774/public_html/member.apji.org/aptii/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home/jurn7774/public_html/member.apji.org/aptii/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
