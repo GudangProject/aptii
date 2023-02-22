@@ -34,11 +34,7 @@
 
 				<div class="col-xl-3 col-md-3">
 					<div class="footer-widget mb-5 mb-xl-0">
-<<<<<<< HEAD
-						<h5 class="widget-title ">Youtube APJI</h5>
-=======
 						<h5 class="widget-title ">Youtube {{ $config->name }}</h5>
->>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3
                         @php
                             $video = \App\Models\Video::where('status', 1)->orderByDesc('created_at')->limit(4)->get()
                         @endphp
@@ -56,11 +52,7 @@
 						<ul class="list-unstyled footer-links">
 							<li><h6 class="text-white">Phone</h6><a href="#">{{ $config->whatsapp }}</a></li>
 							<li><h6 class="text-white">Email</h6><a href="#">{{ $config->email }}</a></li>
-<<<<<<< HEAD
-							<li><h6 class="text-white">Pengurus APJI</h6><a href="https://member.apji.org/page/pengurus">pengurus</a></li>
-=======
 							<li><h6 class="text-white">Pengurus {{ $config->name }}</h6><a href="{{ config('app.url') }}page/pengurus">{{ config('app.url') }}/page/pengurus</a></li>
->>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3
 						</ul>
 						<div class="footer-socials mt-4">
 							<a href="{{ $config->facebook }}"><i class="fab fa-facebook-f"></i></a>
@@ -78,11 +70,7 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-xl-6 col-sm-12 col-lg-6">
-<<<<<<< HEAD
-					<p class="mb-0 copyright text-sm-center text-lg-start text-white">© {{ date('Y') }} APJI All rights reserved </p>
-=======
 					<p class="mb-0 copyright text-sm-center text-lg-start text-white">© {{ date('Y') }} {{ $config->name }} All rights reserved </p>
->>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3
 				</div>
 				<div class="col-xl-6 col-sm-12 col-lg-6">
 

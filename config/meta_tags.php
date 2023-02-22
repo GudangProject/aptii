@@ -7,11 +7,7 @@ return [
      * Meta title section
      */
     'title' => [
-<<<<<<< HEAD
-        'default' => 'APJI',
-=======
         'default' => null,
->>>>>>> 135419552705f8173c1d1cbe30b67370de0a84c3
         'separator' => '-',
         'max_length' => 255,
     ],
