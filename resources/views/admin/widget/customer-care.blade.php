@@ -48,4 +48,15 @@
             </div>
         </div>
     @endif
+    <div class="card-body">
+        <h4 class="text-primary">Informasi Pembayaran</h4>
+        @php
+            $rekening = \App\Models\Prosiding\Rekening::all();
+        @endphp
+        <ul>
+        @foreach ($rekening as $item)
+            <li>{{ $item->bank }} <strong>{{ $item->rekening }}</strong> a.n {{ $item->nama }}</li>
+        @endforeach
+        </ul>
+    </div>
 </div>
