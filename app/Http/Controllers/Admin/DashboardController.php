@@ -35,7 +35,7 @@ class DashboardController extends Controller
         $currentDate = Carbon::now()->format('dmY');
 
         if($userCreatedAt == $currentDate){
-            Alert::html('Welcome', ' Terimakasih telah melakukan registrasi member '.website()->name.', untuk selanjutnya silakan melakukan pembayaran dan upload bukti pembayaran.<br>Informasi lebih lanjut hubungi admin <b>'.website()->whatsapp.'</b>', 'info');
+            Alert::html('Halo '.auth()->user()->name.'', ' Terimakasih telah melakukan registrasi member '.website()->name.', untuk selanjutnya silakan melakukan pembayaran dan upload bukti pembayaran.<br>Informasi lebih lanjut hubungi admin <b>'.website()->whatsapp.'</b>', 'info')->autoClose(30000);
         }
 
         // dd($data);
