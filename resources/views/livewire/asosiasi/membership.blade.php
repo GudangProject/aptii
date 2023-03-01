@@ -3,12 +3,12 @@
         <div class="content-header-left col-12 mb-2">
             <div class="row breadcrumbs-top">
                 <div class="col-7">
-                    <h2 class="content-header-title float-left mb-0">Anggota APTII</h2>
+                    <h2 class="content-header-title float-left mb-0">Anggota {{ website()->name }}</h2>
                     <div class="breadcrumb-wrapper">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a>
                             </li>
-                            <li class="breadcrumb-item active">Anggota APTII
+                            <li class="breadcrumb-item active">Anggota {{ website()->name }}
                             </li>
                         </ol>
                     </div>

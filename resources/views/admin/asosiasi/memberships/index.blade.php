@@ -1,5 +1,5 @@
 @section('title')
-    Anggota APTII -
+    Anggota {{ website()->name }} -
 @endsection
 <x-master-layouts>
     <div class="app-content content ">

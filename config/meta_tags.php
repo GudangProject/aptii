@@ -7,7 +7,7 @@ return [
      * Meta title section
      */
     'title' => [
-        'default' => \App\Models\Admin\Configuration::latest()->first()->name,
+        'default' => null,
         'separator' => '-',
         'max_length' => 255,
     ],

@@ -52,7 +52,7 @@
 						<ul class="list-unstyled footer-links">
 							<li><h6 class="text-white">Phone</h6><a href="#">{{ $config->whatsapp }}</a></li>
 							<li><h6 class="text-white">Email</h6><a href="#">{{ $config->email }}</a></li>
-							<li><h6 class="text-white">Pengurus {{ $config->name }}</h6><a href="https://aptii.or.id/page/pengurus">https://aptii.or.id/page/pengurus</a></li>
+							<li><h6 class="text-white">Pengurus {{ $config->name }}</h6><a href="{{ config('app.url') }}page/pengurus">{{ config('app.url') }}/page/pengurus</a></li>
 						</ul>
 						<div class="footer-socials mt-4">
 							<a href="{{ $config->facebook }}"><i class="fab fa-facebook-f"></i></a>

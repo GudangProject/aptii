@@ -20,4 +20,16 @@
             @endif
         @endforeach
     </div>
+    <div class="card-body">
+        <h5>Informasi Pembayaran</h5>
+        @php
+            $rekening = \App\Models\Prosiding\Rekening::all();
+            dd($rekening);
+        @endphp
+        <ul>
+        @foreach ($rekening as $item)
+            <li>{{ $item->bank }} {{ $item->rekening }} a.n {{ $item->nama }}</li>
+        @endforeach
+        </ul>
+    </div>
 </div>
