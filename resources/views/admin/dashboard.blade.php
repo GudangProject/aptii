@@ -14,6 +14,12 @@
             <section class="app-user-list">
                 <div class="row match-height">
                     <div class="col-12">
+                        {{-- <div class="alert alert-primary" role="alert">
+                            <div class="alert-body">
+
+                            </div>
+                        </div> --}}
+
                         <div class="card card-congratulations">
                             <div class="card-body text-center">
                                 <img src="{{ asset('assets') }}/images/elements/decore-left.png" class="congratulations-img-left" alt="card-img-left" />

@@ -31,6 +31,13 @@ class DashboardController extends Controller
             ]
         );
 
+        $userCreatedAt = Carbon::parse(auth()->user()->created_at)->format('dmY');
+        $currentDate = Carbon::now()->format('dmY');
+
+        if($userCreatedAt == $currentDate){
+            Alert::html('Welcome', ' Terimakasih telah melakukan registrasi member '.website()->name.', untuk selanjutnya silakan melakukan pembayaran dan upload bukti pembayaran.<br>Informasi lebih lanjut hubungi admin <b>'.website()->whatsapp.'</b>', 'info');
+        }
+
         // dd($data);
         return view('admin.dashboard', [
             'data' => $data,
