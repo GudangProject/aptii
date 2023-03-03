@@ -1,5 +1,5 @@
 @section('title')
-    APJI -
+    {{ website()->name }} -
 @endsection
 <x-master-layouts>
 @include('sweetalert::alert')
