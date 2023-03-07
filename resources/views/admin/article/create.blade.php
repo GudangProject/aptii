@@ -252,11 +252,6 @@
 <script src="{{ asset('assets') }}/js/scripts/forms/pickers/form-pickers.js"></script>
 <script src="{{ asset('assets') }}/js/scripts/forms/form-select2.js"></script>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.ckeditor').ckeditor();
-    });
-</script>
 <script>
     function edValueKeyPress() {
         var edValue = document.getElementById("title");

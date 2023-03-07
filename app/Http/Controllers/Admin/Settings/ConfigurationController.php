@@ -118,6 +118,7 @@ class ConfigurationController extends Controller
             $config->twitter = $request->twitter;
             $config->tiktok = $request->tiktok;
             $config->status = 1;
+            $config->message = $request->message;
 
             $config->save();
 

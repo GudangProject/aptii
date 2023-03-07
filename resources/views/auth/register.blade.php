@@ -93,6 +93,12 @@
                                 </p>
                             </div>
 
+                            <div class="col-12">
+                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                    <label class="text-danger">Password harus teridir dari 8 huruf dan angka&nbsp;</label>
+                                </p>
+                            </div>
+
                             <div class="col-xl-6">
                                 <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                                     <label>Password&nbsp;<span class="required">*</span></label>

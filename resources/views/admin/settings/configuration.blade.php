@@ -68,6 +68,17 @@
                                     </span>
                                 </button>
                             </div>
+                            <div class="step" data-target="#alert-message">
+                                <button type="button" class="step-trigger">
+                                    <span class="bs-stepper-box">
+                                        <i data-feather="bell" class="font-medium-3"></i>
+                                    </span>
+                                    <span class="bs-stepper-label">
+                                        <span class="bs-stepper-title">Alert Message</span>
+                                        <span class="bs-stepper-subtitle">Pesan untuk user baru</span>
+                                    </span>
+                                </button>
+                            </div>
                             <div class="step" data-target="#social-links-vertical-modern">
                                 <button type="button" class="step-trigger">
                                     <span class="bs-stepper-box">
@@ -202,6 +213,27 @@
                                         </a>
                                     </div>
                                 </div>
+                                <div id="alert-message" class="content">
+                                    <div class="content-header">
+                                        <h5 class="mb-0">Alert Message</h5>
+                                        <small>Masukan pesan untuk pengguna baru.</small>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-12">
+                                            <textarea name="message" id="preview" cols="30" rows="5" class="form-control">{!! $data->message !!}</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <a class="btn btn-primary btn-prev">
+                                            <i data-feather="arrow-left" class="align-middle mr-sm-25 mr-0"></i>
+                                            <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                                        </a>
+                                        <a class="btn btn-primary btn-next">
+                                            <span class="align-middle d-sm-inline-block d-none">Next</span>
+                                            <i data-feather="arrow-right" class="align-middle ml-sm-25 ml-0"></i>
+                                        </a>
+                                    </div>
+                                </div>
                                 <div id="social-links-vertical-modern" class="content">
                                     <div class="content-header">
                                         <h5 class="mb-0">Social Links</h5>
@@ -252,6 +284,8 @@
             </div>
         </div>
     </div>
+@include('admin.components.texteditor')
+
 @push('vendor-css')
 <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/vendors/css/vendors.min.css">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets') }}/vendors/css/forms/wizard/bs-stepper.min.css">
@@ -267,6 +301,7 @@
 <script src="{{asset('backend/plugins/bootstrap-fileinput/js/fileinput.js')}}"></script>
 <script src="{{asset('backend/plugins/bootstrap-fileinput/themes/fa/theme.js')}}"></script>
 <script src="{{ asset('assets') }}/vendors/js/forms/wizard/bs-stepper.min.js"></script>
+<script src="{{ asset('assets') }}/ckeditorx/ckeditor.js"></script>
 <script src="{{ asset('assets') }}/vendors/js/forms/select/select2.full.min.js"></script>
 <script src="{{ asset('assets') }}/vendors/js/forms/validation/jquery.validate.min.js"></script>
 <script src="{{ asset('assets') }}/js/scripts/forms/form-wizard.js"></script>
