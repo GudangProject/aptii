@@ -5,6 +5,7 @@
 /storage/*.key
 /storage/framework
 /vendor
+.htaccess
 .env
 .env.backup
 .phpunit.result.cache

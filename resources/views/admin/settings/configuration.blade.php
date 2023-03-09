@@ -11,7 +11,7 @@
                             <h2 class="content-header-title float-left mb-0">Configuration CMS</h2>
                             <div class="breadcrumb-wrapper">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a>
+                                    <li class="breadcrumb-item"><a href="/dashboard">Home</a>
                                     </li>
                                     <li class="breadcrumb-item"><a href="#">Configuration</a>
                                     </li>
