@@ -1,0 +1,1743 @@
+[33mcommit a14784b2a38b3adbb3700e61ba6f9ca1ab969bca[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 850c147 833d82d
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Mar 9 08:55:49 2023 +0700
+
+    Merge branch 'main' of https://github.com/GudangProject/aptii into main
+
+[33mcommit 850c14786723780e15e4959eb87e5dc6cb8b2dcf[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Mar 9 08:55:38 2023 +0700
+
+    update gitignore
+
+[33mcommit 833d82d7aeaf7e76153cff25bc90c9ce720395dd[m
+Merge: 077a410 f2e9bfb
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 8 18:21:50 2023 +0700
+
+    update from cpanel
+
+[33mcommit 077a410f83ba174316f41a7300e21dabe0442aee[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 8 18:19:41 2023 +0700
+
+    update from cpanel
+
+[33mcommit f2e9bfb28e933f0f64099a7e6884c42448bb9ece[m
+Merge: a16d089 26269e0
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 8 18:14:31 2023 +0700
+
+    update from cpanel
+
+[33mcommit a16d08997f0b30846d153c4d29885deae111512f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 8 18:12:39 2023 +0700
+
+    update from cpanel
+
+[33mcommit 26269e0fddbbdf4fce39f366365675bbf85ff6bd[m
+Merge: 692eeb8 c5dc130
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 8 18:11:08 2023 +0700
+
+    Merge branch 'main' of https://github.com/GudangProject/aptii into main
+
+[33mcommit 692eeb872781ae6d01bf1feb6a074e382e05adec[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 8 18:10:36 2023 +0700
+
+    fix .htaccess
+
+[33mcommit c5dc130dd3bb0ab7e2fa1162f0872279d4eac619[m
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Tue Mar 7 21:11:38 2023 +0700
+
+    Update footer.blade.php
+
+[33mcommit 5831fe7897651a8613fdfdf07a92ce0795a807d0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Mar 7 17:55:35 2023 +0700
+
+    Update form alert message in configuration
+
+[33mcommit 69eaba2cab2d03d72e0cf1ce2fdbe79bca78fe31[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Mar 3 23:48:31 2023 +0700
+
+    update meta title dashboard
+
+[33mcommit 793e8da0ffae2898e85f2b722f8991c84e9673b2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Mar 3 23:41:49 2023 +0700
+
+    udpate login redirect dashboard
+
+[33mcommit 53dedd9f4a2d731ff2a4d07fc9486fce67554113[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 1 19:15:44 2023 +0700
+
+    Update htaccess
+
+[33mcommit 8a1f1bf56038e7425b0ee6e3aa70d623203d0e72[m
+Merge: cc865c1 318ccfb
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 1 19:02:05 2023 +0700
+
+    update from cpanel
+
+[33mcommit cc865c1d6be1d1400da156aca84ce122581dce34[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 1 18:58:21 2023 +0700
+
+    update from cpanel
+
+[33mcommit 318ccfb5185ed92ce9931bed7e7a446790e5fb9b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 1 18:50:24 2023 +0700
+
+    Dashboad: add alert dashboard
+
+[33mcommit 12e7118f41871cc674f94e48630cf886bf7a5327[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 1 15:37:47 2023 +0700
+
+    Dashboad: add alert dashboard
+
+[33mcommit d55fb564f53bfd5daa769725899855dbdf3f5b2e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Mar 1 14:56:47 2023 +0700
+
+    Dashboad: add info pembayaran
+
+[33mcommit 5b29cd2a6fccff40e037908fd1b72039b29e6d53[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 22 11:05:30 2023 +0700
+
+    fix title page memberships
+
+[33mcommit 085f87a2fe80699576b20add1349203f366e59e8[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 22 10:37:52 2023 +0700
+
+    fix conflict code
+
+[33mcommit b829c4f9730414dc40aa266c7156a9421b1e75f2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 22 10:13:08 2023 +0700
+
+    fix conflict code
+
+[33mcommit b69d8ae47d7bedd48938fd36304af0f3ba5d407b[m
+Merge: 3e7b78a 1354195
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 22 09:54:32 2023 +0700
+
+    update form cpanel
+
+[33mcommit 3e7b78ad8a125eed80a79b11badc28722524eedb[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 22 09:43:39 2023 +0700
+
+    update form cpanel
+
+[33mcommit 135419552705f8173c1d1cbe30b67370de0a84c3[m
+Merge: dc168be 691951a
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Feb 18 00:39:06 2023 +0700
+
+    Merge branch 'main' of https://github.com/GudangProject/aptii into main
+
+[33mcommit dc168be864320c884d43a45c9228800978f83acd[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Feb 18 00:38:00 2023 +0700
+
+    update link pengurus footer
+
+[33mcommit 691951ab7a1c81a7fffedd317d592f9b761bd458[m
+Merge: ed72355 62ec453
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Thu Feb 16 23:01:43 2023 +0700
+
+    Merge pull request #2 from jarwonozt/patch-3
+    
+    Update ScreensController.php
+
+[33mcommit 62ec453539a4056fe746e0ff293fdc0a8814cf18[m
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Thu Feb 16 22:29:39 2023 +0700
+
+    Update ScreensController.php
+
+[33mcommit ed72355adb636c34d74924352b600b0d46acbd67[m
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Thu Feb 16 21:58:50 2023 +0700
+
+    Update meta_tags.php
+
+[33mcommit fe7145618e7c24bbc897b0e0835b6b81c6f43735[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 15 21:02:33 2023 +0700
+
+    update dynamic title page journal and anggota
+
+[33mcommit 4654689d059cb6c84a730c88997df3fe9eb7a319[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 15 20:58:36 2023 +0700
+
+    defaul title
+
+[33mcommit 2d128b392184c3d2b5757a6c30bfb3d137967d02[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 15 20:32:37 2023 +0700
+
+    update footer dinamic
+
+[33mcommit 9eca664ca400f00c025ecec58f2a943f405c4d98[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 15 08:46:12 2023 +0700
+
+    fix input kegiatan
+
+[33mcommit 3adf2cb0fc44a0beeaa092a5ee2766e69123f823[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Feb 14 01:23:02 2023 +0700
+
+    update menu panduan
+
+[33mcommit 450572821a18102a7248e2747fdf7e4f52522c88[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Feb 14 01:08:14 2023 +0700
+
+    add crud guide
+
+[33mcommit 9aac5c5fb69fbf8775b5b2717faae006a5e07128[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 8 18:47:34 2023 +0700
+
+    Frontend Journal: number loop
+
+[33mcommit 174ce73a0cfe55f8bfd8908e391ec285c5a39412[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 8 18:39:31 2023 +0700
+
+    Frontend Journal: add search
+
+[33mcommit 647a9b4e877728ab24c014881a04d912f8f00163[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 8 13:13:15 2023 +0700
+
+    add search in page anggota
+
+[33mcommit c6e1a58c7d8aac1583e77a05a370ca3fe1f4bc33[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 8 09:45:37 2023 +0700
+
+    Fik link sk anggota
+
+[33mcommit 04f03cc685a621d81e1d6612d563fce6692aefa1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Feb 8 09:45:09 2023 +0700
+
+    FIx url sk anggota
+
+[33mcommit d43c809042f65e947bcd759de3102e6921245505[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Feb 7 18:30:29 2023 +0700
+
+    update page anggota order and number
+
+[33mcommit 9363cabb80a9c00030447b9be65675ee897dd3eb[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Feb 6 10:32:29 2023 +0700
+
+    fix update afiliasi profile
+
+[33mcommit 4687eeff416765c8a10db8d892fec142b7cf58f0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jan 28 19:29:23 2023 +0700
+
+    update header
+
+[33mcommit ef6747861e4ca686f74b551c22c1e7643270087d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jan 28 19:02:51 2023 +0700
+
+    update css
+
+[33mcommit a649fc375c7cdc25806f9c2d00665d9f40e97538[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jan 28 18:36:24 2023 +0700
+
+    update master client
+
+[33mcommit cecd18694e2f5e77184c46584454d4b28316f7a6[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jan 28 18:28:31 2023 +0700
+
+    update css
+
+[33mcommit 33d291d60c7f4ff5780af30282aafe6820f0acc4[m
+Merge: f6d2801 1543263
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 18:16:54 2023 +0700
+
+    Merge branch 'main' of https://github.com/GudangProject/aptii into main
+
+[33mcommit f6d2801a0a3da94a185abd4abfb0e526fb37d3b6[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 18:16:46 2023 +0700
+
+    fix table data- pembayaran bank null
+
+[33mcommit 15432637d9e5fbe98030fbd1a4b4beee5329f683[m
+Merge: 075db45 c4f3ab0
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 18:13:40 2023 +0700
+
+    update from cpanel
+
+[33mcommit 075db45796139bd513a9f0d8e70cb17c477b19a1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 18:08:28 2023 +0700
+
+    update from cpanel
+
+[33mcommit c4f3ab0b27e7feb2853867044bee2eaf0f5efe76[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 18:06:36 2023 +0700
+
+    fix table pembayaran bank null
+
+[33mcommit 8601c2c1e13d92c8b567b7ca3dac17b453170452[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 14:37:47 2023 +0700
+
+    fix typo category in create pembayaran
+
+[33mcommit 414688f4ad1121b17a3b155d0ac1cc5122d238de[m
+Merge: c26da19 d4eab17
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 14:27:25 2023 +0700
+
+    Merge branch 'main' of https://github.com/GudangProject/aptii into main
+
+[33mcommit c26da19a0940bb59823e8bdc2dc6fb3ddea27589[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jan 27 14:27:08 2023 +0700
+
+    update change kategori pembayaran
+
+[33mcommit d4eab17323c8a0da9a7b2d9ab247516ab70ed5fd[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jan 24 15:33:03 2023 +0700
+
+    update from cpanel
+
+[33mcommit 40592a40880fac049b0b8530c58357e3166b7f57[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jan 2 18:11:08 2023 +0700
+
+    update header export user
+
+[33mcommit ca2c30a63d39571f7332d1985cdf2e5f1553430d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 27 19:55:47 2022 +0700
+
+    udpate data keuangan jurnal afiliasi and member
+
+[33mcommit 3910bc48ccc14db5c84b32e4b442be22e94a1886[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 27 16:28:46 2022 +0700
+
+    update laporan pembayan member
+
+[33mcommit ba6671fa9cc45fc6b07eb7fc2d481ff2020dd0d3[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 26 10:06:29 2022 +0700
+
+    update menu sidebar admin
+
+[33mcommit 99575858f5b000d82ae935a40de391c8d6f28ae2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 24 11:13:39 2022 +0700
+
+    update footer
+
+[33mcommit 5edaebf7ed357b6b6b30a798cde8c12fbd30caeb[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 24 11:04:32 2022 +0700
+
+    update footer and detail video
+
+[33mcommit 565af737807535b5292a38dd367ebed138c72163[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 22 20:06:41 2022 +0700
+
+    add model video
+
+[33mcommit 4fd6a2ed10c55679562cde7cd9273e6e03e77301[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 22 17:56:11 2022 +0700
+
+    add id user detail anggota
+
+[33mcommit 0f44169bfa5fc333fd3eb3c28923dfb935cf4f7d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 22 17:39:49 2022 +0700
+
+    add id user new format
+
+[33mcommit ce895f0515352456573d688e2ef129b2452af461[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 22 00:15:38 2022 +0700
+
+    update data anggota
+
+[33mcommit f4a6fab0bd07db905ba797cc664ac088e10c5298[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 22:25:51 2022 +0700
+
+    update ketersediaan dana kegiatan
+
+[33mcommit feef1b9f4397d4c5033e7a1342a1f027e266764d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 20:06:43 2022 +0700
+
+    update date aprove journal
+
+[33mcommit bf9cc8d570a35d92ac318ad7682fe923886352a5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 19:44:55 2022 +0700
+
+    update list agenda
+
+[33mcommit 1e32fc300c9202345dcf727c3dd91b4047ba42e1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 19:29:35 2022 +0700
+
+    fix insert index journal
+
+[33mcommit 955193f07adbc15bf07df75ca669a6a3b910071d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 19:22:18 2022 +0700
+
+    update fix list index journal
+
+[33mcommit 775ecc997dfd17d70f704a53d34613faaf348ee1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 18:50:28 2022 +0700
+
+    update list agenda
+
+[33mcommit e84c33e4b3dcaa2a1ef9d1f3a4d99a5bc80ee7a7[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 17:24:58 2022 +0700
+
+    fix categories post
+
+[33mcommit 9bb1ec55d428306511a11e2224d2badc771987bb[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 17:09:52 2022 +0700
+
+    fix sidebar
+
+[33mcommit c6ac9c36099427612e5b3d17aaedb32dc5a6dea5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 16:44:13 2022 +0700
+
+    Add form index journal collab
+
+[33mcommit 34ba9ecd9b8b7c0f578355df399c230a89ccff9d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 02:45:02 2022 +0700
+
+    Update meta journal
+
+[33mcommit d09ad4fd2e81d40f31c76388b71376b17037b424[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 21 02:26:12 2022 +0700
+
+    Update detail jurnal and kegiatan
+
+[33mcommit f847d037905932ed44f019f3576d53995ccd85c4[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 20 22:36:01 2022 +0700
+
+    detail journal afiliasi
+
+[33mcommit 6e4d6527176819021c4306b48c455e84e9f66b0f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 20 22:00:57 2022 +0700
+
+    Fix Create Post
+
+[33mcommit 04596717e97a102d2b7cdb7777a68a8dfdb76e67[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 20:22:15 2022 +0700
+
+    update menu display mobile
+
+[33mcommit a4224005214e3f6dedc2c7874a9f4dd4505cfb1e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 20:15:06 2022 +0700
+
+    update sidebar detail
+
+[33mcommit b66def6518657e42aa879ffe644d844bba0bec59[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 20:14:32 2022 +0700
+
+    update sidebar detail
+
+[33mcommit 2569dc87fd92f91a33c148745eb40186ad89272f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 18:14:26 2022 +0700
+
+    update home agenda and kegiatan
+
+[33mcommit 36c024d5a29ed3ab736b9e6847a4f7a4231f9456[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 16:58:59 2022 +0700
+
+    fix detail article
+
+[33mcommit 0c544ec54b18580d62790cdb5f8141f9699e476d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 16:43:04 2022 +0700
+
+    Update table livewire data kegiatan
+
+[33mcommit 78228c0be1683ad97eae74657047cada34d42016[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Dec 19 15:53:25 2022 +0700
+
+    Update url image
+
+[33mcommit 939774e85b27ad73c95ea742cbbd5b658d4229d2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Dec 18 19:56:55 2022 +0700
+
+    fix button banner
+
+[33mcommit 383a1656ac4decd44c72dd25e51f5afa8b74eb26[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Dec 18 19:51:21 2022 +0700
+
+    add bannder iklan crud
+
+[33mcommit 8c851031ab49c18547b1db92ef92ae2fee67beed[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Dec 18 18:47:18 2022 +0700
+
+    edit and detail kerjasama kegiatan
+
+[33mcommit 65afbefc9f992d4e50a042723884e0c5886b8016[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Dec 18 13:30:00 2022 +0700
+
+    validasi status jurnal afiliasi oleh admin
+
+[33mcommit 2b395cd43d2a9680a37a5d6f2713be4e72b45003[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Dec 18 10:12:32 2022 +0700
+
+    edit journal kerjasama
+
+[33mcommit e8d8bfe9cda7665415a191d6f83e856b89e469b0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 17 21:38:06 2022 +0700
+
+    Upload Data Kerjasama Jurnal
+
+[33mcommit 54ab1d424d588b837e62a8d4e50459ebec98ddd9[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 17 19:35:37 2022 +0700
+
+    update page certificate
+
+[33mcommit 4aaa16b98881c3d2a89f111954a8464f08abe667[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 17 18:06:10 2022 +0700
+
+    fix display menu login mobile
+
+[33mcommit 6de2667a0c31136794c37241f7356b35a22d7d60[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 17 00:43:28 2022 +0700
+
+    Add Page Dynamic
+
+[33mcommit 5a43f2222665a0d68be0d626732777440f479cf9[m
+Merge: ee4ff3c c6ae662
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 15 23:05:27 2022 +0700
+
+    update from hosting
+
+[33mcommit ee4ff3c97a867dce210aca226fa4f939ccb626e7[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 15 23:03:39 2022 +0700
+
+    update from hosting
+
+[33mcommit c6ae6629ebb2b4208d987802f459a7d154d0d1ae[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 15 23:00:56 2022 +0700
+
+    Frontend: update page article
+
+[33mcommit fb3a4152d4326d74b0eef19fcd65250925bc664b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 15 21:02:38 2022 +0700
+
+    Frontend: page Jurnal
+
+[33mcommit 6bea326f2f7f5db75bcb7edfdfe8f5b2ab237a2c[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Dec 15 19:32:14 2022 +0700
+
+    update crud kerjasama
+
+[33mcommit 76d724acf9cf484ebd2de650627d31c66a87c1c2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 14 20:10:13 2022 +0700
+
+    Page add kegiatan
+
+[33mcommit 5b384eebd422a2902936cd9db704d49e60c76991[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Dec 14 18:50:39 2022 +0700
+
+    Confirm Payment to Whatsapp
+
+[33mcommit cfc0d047c7e54cc90616d17ca6cf8fd6053c9515[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 13 12:55:43 2022 +0700
+
+    update scripts
+
+[33mcommit 9b69a5a681dc300b437de81f620b5fcb401b2dcc[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 13 12:12:51 2022 +0700
+
+    Update Footer
+
+[33mcommit 385d489c733a7bf63e736454e1455fbde7f3857e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 13 12:01:59 2022 +0700
+
+    Update Pengurus
+
+[33mcommit 92d6333bddc2dbe1ae627bb98964e00914ef24fe[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Dec 13 10:53:01 2022 +0700
+
+    Update Menu Dinamic
+
+[33mcommit 88ab89c7a4ead14a4ca7641055e19e22994fe503[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 3 11:16:25 2022 +0700
+
+    Home: update menu header
+
+[33mcommit aef5c3c0c7400cb0f246253ba4b701d7f5f9dd6e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 3 10:55:00 2022 +0700
+
+    ignore storage/framework
+
+[33mcommit 5b9b667971b37d7bf16f8b1b995c9cfebbebb5bc[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Dec 3 10:53:11 2022 +0700
+
+    Home: update menu header
+
+[33mcommit 23f4e4d1b36937cb72156b8551599c5b86fb178a[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Nov 30 01:57:02 2022 +0700
+
+    Frontend: Register with upload photo
+
+[33mcommit 8e22476d035637e0e666e9fa1596ce41918617a2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Nov 27 20:14:02 2022 +0700
+
+    Dashboard: update form register
+
+[33mcommit eebe6e984d6c67a69e28793d0b8d47f6d9fdea95[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Nov 27 19:39:36 2022 +0700
+
+    Dashboard: update form certificate
+
+[33mcommit 4de8b6fca7af4956a2618795b40b0771ed8ed860[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Nov 27 15:27:19 2022 +0700
+
+    Dashboard: condition for payment menu
+
+[33mcommit 4c885515d5b44ab9eefa427ef060136cd9e12211[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Nov 27 14:26:07 2022 +0700
+
+    Dashboard: update menu sidebar
+
+[33mcommit 36e1e7443056dff56fa1463bdf399baf56d400f8[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Nov 24 08:48:59 2022 +0700
+
+    Dashboard: update name menu sidebar
+
+[33mcommit 93c8581de53bbde64c76abed1c7d517e55282c42[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Nov 23 09:36:05 2022 +0700
+
+    Dashboard: title sidebar
+
+[33mcommit 06327689831ea2d2d38aa6c1310b74b8be00f41f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Nov 23 08:55:46 2022 +0700
+
+    initial commits
+
+[33mcommit 1d57a93baf25ebe5668afcb82a5a2dfff001e010[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 8 13:08:10 2022 +0700
+
+    input map url in configuration web
+
+[33mcommit 51bc26d5074e777413966a90f2a440fa8878ab0e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 8 12:44:30 2022 +0700
+
+    fix meta detail post
+
+[33mcommit 4b3c2496f16736720a85a3f1c33552d37ae0fd4f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 8 12:30:00 2022 +0700
+
+    fix meta tags
+
+[33mcommit cde2de380978b0869681b3fd724ee536d5924fbf[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 8 02:34:47 2022 +0700
+
+    page event+detail event frontend
+
+[33mcommit f0fcdcd0ad6def9c0905acd183898dcbec149f0e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 8 01:34:33 2022 +0700
+
+    certificate for peserta
+
+[33mcommit ac203728a482296c5bd4b9a999e6dc22b228d77a[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Sep 7 19:46:20 2022 +0700
+
+    crud certificate dashboard
+
+[33mcommit 8455d0d856da3b5e9f6ba40876ce9c30e80cfa06[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Sep 7 16:03:13 2022 +0700
+
+    fix button header sign up
+
+[33mcommit d2f06eead6f04a1451978d0b4b9e75aa4e295e92[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Sep 6 19:04:40 2022 +0700
+
+    create table certificate
+
+[33mcommit 401c61540a06bffbdccfb758d9143b33705f3553[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Sep 5 20:48:25 2022 +0700
+
+    error page 404
+
+[33mcommit e1520ac91a85e8e193087896a75168ef794b1d72[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 18:13:31 2022 +0700
+
+    dashboad encode
+
+[33mcommit f9611762a5d509f5c2f4fed214918a4ea869a447[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 17:04:21 2022 +0700
+
+    agenda informasi dashboad
+
+[33mcommit 180dfa89f797deb3f3a79e7f52cd7f59b77793a0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 16:19:04 2022 +0700
+
+    total peserta prosiding
+
+[33mcommit 63c8eb5bffac7064ad6b53821f94d62cdc7ed631[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 15:39:56 2022 +0700
+
+    menu info event seminar user dashboard
+
+[33mcommit b4d4c5a1e9b71dff8a728684ab90b18f9682812b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 15:12:49 2022 +0700
+
+    type seminar
+
+[33mcommit f76fccbd69b3831c1dc7a224d1f2c9a3c917a031[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 14:47:25 2022 +0700
+
+    page contact
+
+[33mcommit adcfe397eec30673f063b2ea1b4c322e3fa27ad4[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Sep 1 13:54:33 2022 +0700
+
+    dinamic logo frontend
+
+[33mcommit 0c8186498095ad759cba87809a9483a438fe2215[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Aug 31 19:41:27 2022 +0700
+
+    detail artikel and tags
+
+[33mcommit ce3a7e14ed776d26e9fe9452a9e83bda19f973af[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Aug 31 18:17:46 2022 +0700
+
+    section agenda and statistics
+
+[33mcommit bd8def8ef16e0a075d2065b45e3c713c0de285da[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 30 20:28:21 2022 +0700
+
+    agenda section frontend
+
+[33mcommit e98ec861132238e288549445894de34e5c49892e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 30 19:13:26 2022 +0700
+
+    crud agenda
+
+[33mcommit 029ff67e359220e0232acc44f2c5566825191057[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 29 14:03:09 2022 +0700
+
+    link prosiding nasional
+
+[33mcommit ba0b7adb21242e32c1a925e833bc0984ae84c415[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 29 12:38:31 2022 +0700
+
+    fix image create event
+
+[33mcommit 1d95ac0c517f1d6feda9bf99da57a9f8604cbb20[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 29 12:12:28 2022 +0700
+
+    fix slug event create
+
+[33mcommit a8fe32070df9cc78a9d6903dd6e39f9ffc3ab1ea[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Aug 28 18:24:35 2022 +0700
+
+    page artikel frontend
+
+[33mcommit b03c240805efb3bb37e86741821674aa982d4920[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Aug 28 17:40:57 2022 +0700
+
+    widget seminar home
+
+[33mcommit 2053a409c74b2e966b97000f93d605a8f8d98a66[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Aug 28 15:07:48 2022 +0700
+
+    headline set limit
+
+[33mcommit 3f9a904eac1b820126e14c4e2a9d0032d6231a00[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Aug 28 14:58:54 2022 +0700
+
+    headline info prosiding
+
+[33mcommit 62ee3c9653b208423e4b4da7af80ca2735aac0b4[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 25 19:33:28 2022 +0700
+
+    fix menu kontak narahubung
+
+[33mcommit d363d2f1ec26bcd5296f5fd51ff18db965f0d569[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 25 18:44:48 2022 +0700
+
+    crud kontak narahbung
+
+[33mcommit 071a9b1f7a40b60847b8cee570b2928e68b1296e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 25 17:30:50 2022 +0700
+
+    display kontak narahubung dashboard
+
+[33mcommit 8d0a40f1d1350c280c71208e9cedcf43a7fb77a6[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 23 21:00:23 2022 +0700
+
+    menu prosiding nasional
+
+[33mcommit c92a77619799b842ee2939cd2b9829cec928886d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 23 20:53:28 2022 +0700
+
+    detail info prosiding
+
+[33mcommit 3994fce6f5308dbd6fd4989efa88f0a596de6191[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 23 20:30:34 2022 +0700
+
+    list prosiding info for peserta
+
+[33mcommit 374b1581a233c1a253eb2a28c47d469bf9c48fa5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 23 18:52:37 2022 +0700
+
+    post info prosiding in article
+
+[33mcommit f6a93b7233037e273379b8a3378783a30ad3bf53[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 22 15:43:32 2022 +0700
+
+    upload naskah status default 0
+
+[33mcommit ed99d278110e35e0f55cef0df05a1c854fa8ea6f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Aug 21 00:14:29 2022 +0700
+
+    create event
+
+[33mcommit 8acf3388f71cd5f10797621cf38ec233aec568a2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Aug 20 23:31:34 2022 +0700
+
+    table event
+
+[33mcommit a666f39af2b8ac64e504d59af3b09584f60654a5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Aug 20 23:02:01 2022 +0700
+
+    add event model controller view
+
+[33mcommit 0bf301780d17414a3584d29d0cc2cfc1b1acd3ce[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Aug 20 16:37:39 2022 +0700
+
+    add crud bidang ilmu
+
+[33mcommit 3a682b77a56e68ec1fa4ebf19d80c6411e9ab5b1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Aug 19 21:57:53 2022 +0700
+
+    create bidang ilmu controller
+
+[33mcommit 5ecbd1f9a856ee93afaba108a492529efd3eb89f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Aug 19 18:44:46 2022 +0700
+
+    widget welcome dashboad
+
+[33mcommit 323ce0f7e1b3d5f35c6e496f936817fbefa8a3de[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Aug 19 18:10:03 2022 +0700
+
+    update page profile setting
+
+[33mcommit 9a7970e96ad46abb7e3f90ac33b4c74a6d881709[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Aug 19 17:52:43 2022 +0700
+
+    add form gender in register user
+
+[33mcommit 418758f7993254f73f6c91469271fe260a581432[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Aug 19 11:41:51 2022 +0700
+
+    menu upload bukti pembayaran
+
+[33mcommit d6ebcf21e677058d1fb8f9f9a9bd80c4cf83bf34[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Aug 19 09:38:43 2022 +0700
+
+    fix button confirmasi pembayaran
+
+[33mcommit d8dfe192ae7b3de4d87e82592a846d7e8f29cefa[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 18 21:35:03 2022 +0700
+
+    new form registrasi peserta
+
+[33mcommit ce910676f2a4c8985fec2902ce0b6740de12cde0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 18 21:02:51 2022 +0700
+
+    setup frontend
+
+[33mcommit e5cb5005ec8942feb0f4f96bbb68c027d57d5f49[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 18 19:36:42 2022 +0700
+
+    menu naskah for role peserta
+
+[33mcommit b3a8ca9b05d7bbdaf855fd4ff64da14391e9f95d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 18 01:09:20 2022 +0700
+
+    syncPermissions
+
+[33mcommit fb61c7e1a64b35729e989b7ecfa613b45c6253e9[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 16 15:24:13 2022 +0700
+
+    fix profile social link
+
+[33mcommit 8750c7235de54a8fd34d9f798752ea280b49a1b6[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 16 15:05:37 2022 +0700
+
+    edit naskah dan edit pembayaran
+
+[33mcommit d9a68847747349e0bc8e6984684191f1be2044f9[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Aug 16 01:44:05 2022 +0700
+
+    tambah naskah
+
+[33mcommit 53a832544b44d3ab576cc104abaa362fab26f327[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 15 23:37:36 2022 +0700
+
+    add bidang ilmu model
+
+[33mcommit ab47f2b73c12fd835b64cf9be6c51b82ab6d792a[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 15 21:37:58 2022 +0700
+
+    data pembayaran dan naskah
+
+[33mcommit cd42972ea1f47b41fc3518f1eab93bd04a0c4d39[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 15 20:07:26 2022 +0700
+
+    add model prosiding pembayaran
+
+[33mcommit ca8c568de2ff6ce2f900323d9c0bf8cd86e9e91e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 15 19:49:57 2022 +0700
+
+    add model prosiding
+
+[33mcommit b0cd0a57c7aa754e80a3407660942d46aa5dc2fe[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 15 19:22:50 2022 +0700
+
+    add dynamic active button
+
+[33mcommit 7df604d02af3f038b7d055e76ee4ed79c8884a41[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Aug 15 19:12:32 2022 +0700
+
+    helo
+
+[33mcommit ae389bd22156c173bc2119d6aff67ade51e66c56[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Aug 4 23:53:20 2022 +0700
+
+    filter lokasi job
+
+[33mcommit ee9505fcd4a6c8fa940c183e0749ff8c74c28dc9[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 31 23:38:28 2022 +0700
+
+    created file form-crop-image-article
+
+[33mcommit 97365c9e098f442ccb4ce37cda6c9738b208110e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 31 23:29:01 2022 +0700
+
+    input tags in article
+
+[33mcommit 9f7c7f0cd0f4029323024987560b9cb094b75919[m
+Merge: da481fa abbb58d
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 31 22:29:30 2022 +0700
+
+    Merge branch 'main' of https://github.com/jarwonozt/jcms into main
+
+[33mcommit da481fa4e6920d0bfe6bc1f4c0e6d49e230a9723[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 31 22:28:41 2022 +0700
+
+    update tags article
+
+[33mcommit abbb58d9b54d9fbfe02d6aeff9b19158a9a7a295[m
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Thu Jul 28 14:19:04 2022 +0700
+
+    Update README.md
+
+[33mcommit 420c6e2914a468af00bc81e99fd87a6566398a03[m
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Thu Jul 28 14:13:31 2022 +0700
+
+    Update README.md
+
+[33mcommit 7f433cf1fbfe8e89f5cbf544691f690cb3928c5b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jul 28 13:12:39 2022 +0700
+
+    fik role super admin name seeder
+
+[33mcommit 27d3eff061a168f783566bbadc65879a14fd873d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jul 28 12:23:45 2022 +0700
+
+    add column status in users table
+
+[33mcommit d89b4fb5fac5020392ca9c703b9bceb97f3fecf4[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jul 28 11:49:48 2022 +0700
+
+    fix menu admin and super admin
+
+[33mcommit 40997710fb0e0641f5d7bf376e21ef8e36a6c124[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jul 22 22:06:20 2022 +0700
+
+    replay comment to livewire
+
+[33mcommit a81e991b72bef5e2e81daf3fb2c6a2700e70e579[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jul 22 21:47:46 2022 +0700
+
+    fix reply comment article home and dashboard
+
+[33mcommit d5b6637fc8a4fbd2964a7b8c0662892058d44f2b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jul 22 21:13:40 2022 +0700
+
+    admin reply comment article
+
+[33mcommit 9569784316ec7d58af02e35c274fc11ee4724b14[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jul 9 16:33:12 2022 +0700
+
+    fix edit article
+
+[33mcommit af893704d8ad3ef1ac593d09a4b90e1eecb901d1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jul 9 15:30:47 2022 +0700
+
+    fix comment article frontend
+
+[33mcommit c4ec0a320d2e31b607628aa529a0201680827692[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jul 9 15:11:59 2022 +0700
+
+    fix detail blog frontend
+
+[33mcommit 053d399ab80fad9c54c16dc472717b428d41798b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jul 6 22:28:22 2022 +0700
+
+    new comment detail article dashboard
+
+[33mcommit e37c7c14809f222bdeb82ce7c1cab76d6155194e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jul 6 22:13:06 2022 +0700
+
+    insert category in jobs crud
+
+[33mcommit 81af4cb129572f16cd52463bd7edad1ab9df1218[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jul 6 19:55:59 2022 +0700
+
+    edit jobs categories table
+
+[33mcommit 603d8222499558c99d7236920d77b7041607678f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jul 6 19:32:05 2022 +0700
+
+    add jobs categories table
+
+[33mcommit f0cb1a0bb4a8a15e06a679f76c2a7541180e9f60[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jul 5 23:08:46 2022 +0700
+
+    fix send appy jobs
+
+[33mcommit 32fcabc5ca49ff5d0516f6f5772c6f493e693d54[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jul 5 20:48:35 2022 +0700
+
+    create model jobs applied
+
+[33mcommit 410ca031596daaf15e00c3d28f3a00640142d654[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jul 5 20:37:39 2022 +0700
+
+    create jobs applied index dashboard
+
+[33mcommit 6050168701b78de5f92dbcbf5b54fe6f5975c71c[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jul 4 18:02:40 2022 +0700
+
+    apply now modal
+
+[33mcommit 790e625a26d1f5a2a44a0051f12ffc88cd42673b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jul 4 17:35:17 2022 +0700
+
+    lazy load frontend lis jobs
+
+[33mcommit e38cb80a6b5c3c02d9529ea1df984179de988ec5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jul 4 16:54:59 2022 +0700
+
+    frontend list jobs
+
+[33mcommit 6b3ec657a257bd991876d7901ab6436bf6375e57[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 3 23:12:49 2022 +0700
+
+    livesearch show hide icon and page select limit
+
+[33mcommit a69ef4560f40b5450a0069a3951fedd01ac47458[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 3 18:57:07 2022 +0700
+
+    single delete jobs
+
+[33mcommit 0a0d341a64644b9aa2068319ae4f33ba67b88b1f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jul 3 18:38:52 2022 +0700
+
+    edit jobs
+
+[33mcommit 1e7cd894f12a634f7794f8d0cb6efc4346c920dc[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jul 1 21:45:02 2022 +0700
+
+    form create jobs
+
+[33mcommit 0ed4a9996a80dfa21c9b3e049190314323c6d106[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jul 1 13:43:48 2022 +0700
+
+    view form jobs add
+
+[33mcommit 454538fb6debd383d82afe50c85769b0282faa22[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jul 1 11:32:07 2022 +0700
+
+    fix check all and unchecked all
+
+[33mcommit 358363e66a7fe03737f9d6d56dd6d111a7627e6f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 29 22:35:59 2022 +0700
+
+    open modal create new jobs
+
+[33mcommit 388f37d23fea2cc3fb9f3a51f1aa165e81f42133[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 29 21:37:32 2022 +0700
+
+    check all data jobs table livewire
+
+[33mcommit 380f2744a9cc068f8ea1347b0fe7b89231bd0935[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 29 19:34:17 2022 +0700
+
+    create table jobs livewire
+
+[33mcommit b83476c73c156f428c818a59b65c6bf9579fcdff[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 29 18:38:58 2022 +0700
+
+    model jobs migration
+
+[33mcommit 143b4cab05ba1d1ce092889a0ddfb06395f1fa67[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 29 18:06:10 2022 +0700
+
+    add model jobs
+
+[33mcommit e65724b07afc0be92a78bb8d9f0732f4ae6d3e2f[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 28 23:21:06 2022 +0700
+
+    fix title detail post
+
+[33mcommit d0989bb2f68155b6a579d355c8ba38e310806dc2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 28 22:26:24 2022 +0700
+
+    delete comment
+
+[33mcommit 7a312d2f71b4c567e33cd5ec789d1fcd60bb3601[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 28 19:46:22 2022 +0700
+
+    send comment after login
+
+[33mcommit c9e000497e93c7030d355ed138885edabad39fba[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 28 13:03:24 2022 +0700
+
+    time ago comment article
+
+[33mcommit bf9d0e373a073ea6f88e171383b72b3e874b48e4[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 28 11:56:24 2022 +0700
+
+    post comment use livewire
+
+[33mcommit 29239a58b4365480fe17e759a8182cc22010ac48[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 15:52:09 2022 +0700
+
+    popular post sidebar detail
+
+[33mcommit 1bc77492be377775faf1eda0ba6e0004494f2b7a[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 15:12:50 2022 +0700
+
+    counter post article
+
+[33mcommit 910beab87f292181e5e3dec4ca8afa0d7eb42a83[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 14:54:13 2022 +0700
+
+    add page 404 template
+
+[33mcommit b6776051843c9b1827298084e3455952a5272955[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 14:10:43 2022 +0700
+
+    Fix pagination articles
+
+[33mcommit 71cdec38b37608db87e13280e59ecbf5e968d8e1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 01:03:35 2022 +0700
+
+    Post detail title
+
+[33mcommit d5effdf0c7d2effa810780d0965339e0a4695703[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 00:58:05 2022 +0700
+
+    Post all
+
+[33mcommit bb2e6c656e273d4b0affb0de6d9c7ec431cca8ba[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 27 00:27:38 2022 +0700
+
+    Post headline
+
+[33mcommit e4fc2f92227c06e0519cfdd372c517fa1c7c1f81[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jun 26 23:01:00 2022 +0700
+
+    Menu configuration admin
+
+[33mcommit 747edec0a038b2baa8edf6d4e62fd225ed855c55[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jun 25 23:06:49 2022 +0700
+
+    CREATE model configuration
+
+[33mcommit a977b0107f6d0c26c626f5d37c022a25b40b5825[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jun 25 21:00:26 2022 +0700
+
+    CREATE article with image cropper
+
+[33mcommit 6b88ed00e64de43462fd7480451f3390eb7b5b26[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jun 25 19:22:51 2022 +0700
+
+    EDIT ARTICLE alert if error form
+
+[33mcommit 0d06d4feb12480e057a87aee2318ca00136e4f95[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jun 25 19:08:25 2022 +0700
+
+    EDIT ARTICLE fix delete image old
+
+[33mcommit e49873f4690c6672673ffbb529c4ec003f3c03dc[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jun 25 17:48:06 2022 +0700
+
+    EDIT ARTICLE with image cropper
+
+[33mcommit 13611a95368e1584f9931c4dbd0f84c9fb146e17[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat Jun 25 01:12:10 2022 +0700
+
+    display upload image use cropperjs
+
+[33mcommit 2e718cc708b2eb89426ea2189198a6250a6444dd[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jun 24 14:33:27 2022 +0700
+
+    META dynamic
+
+[33mcommit a56bf14842871d30f2a8ae5c4727b3e0dd20ea8e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jun 24 13:06:45 2022 +0700
+
+    META og and twitter card
+
+[33mcommit bf640ae63eec76824c1749a182dec4cf7d1a4972[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jun 24 12:28:16 2022 +0700
+
+    META header
+
+[33mcommit 346aa8f77485990501da8777d8df7ce67720c911[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jun 24 01:06:36 2022 +0700
+
+    headline cache fix
+
+[33mcommit 1872c574c0e4e3aaa4629acf6b1eb6264c6b290b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jun 24 00:59:03 2022 +0700
+
+    headline
+
+[33mcommit bd8893e22833319a984f16f73855c60bc90dd754[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri Jun 24 00:37:53 2022 +0700
+
+    header slider
+
+[33mcommit a4017ddc4d3032969735c0851ddfef93b2de35e5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 23:27:25 2022 +0700
+
+    use cahche and abort error
+
+[33mcommit 49983d3c56d2b0e3fce1e7c348a1add5a65a9aee[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 20:19:57 2022 +0700
+
+    recent articles home
+
+[33mcommit 337af85eddbea8420ca30e254bb4e6cce2f03e57[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 19:26:35 2022 +0700
+
+    set menu header
+
+[33mcommit b2fbac456e00b448bc5f36adc78a1d5b4dd24bbd[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 19:18:58 2022 +0700
+
+    new template frontend
+
+[33mcommit b4bc103523f560beb0979a875a5b4be75e812f9b[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 00:58:09 2022 +0700
+
+    USER reset password
+
+[33mcommit 1509e774f0fb0e6d18910b0f1f3c6c5f1bc3e5df[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 00:23:29 2022 +0700
+
+    ARTICLE CATEGORI fix delete
+
+[33mcommit 8c8cf2ed6adecfcbcfd06a620cb425ce38830ab0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu Jun 23 00:19:08 2022 +0700
+
+    ARTICLE filter by author role
+
+[33mcommit 4874c894ce4890fffe8524438e06e293c5fc903c[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 17:10:14 2022 +0700
+
+    ARTICLE DETAIL IMAGE
+
+[33mcommit 1f23c9eab7039c79c604e544e0d0f23e8f299648[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 16:34:26 2022 +0700
+
+    ARTICLE DETAIL
+
+[33mcommit 7b4c3ce31ae8668893d2494a7ff4e5078a1c172d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 15:34:52 2022 +0700
+
+    ARTICLE Category update data
+
+[33mcommit f540bb97d5be0684f17cfa0e32e690607e942878[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 14:56:13 2022 +0700
+
+    ARTICLE Category created new category
+
+[33mcommit 938f52b840c4eddc9867b695a5a6e81b181b9bf7[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 12:21:49 2022 +0700
+
+    ARTICLE multi delete articles
+
+[33mcommit a2b1da00dfa021ecf7f02cea0badd0e0672c1bbe[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 12:16:09 2022 +0700
+
+    ARTICLE single delete with confirm
+
+[33mcommit 8762b8b61d38dd4e33bbb6af636ca70c32c115f0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 09:59:53 2022 +0700
+
+    fix search table articles
+
+[33mcommit 103551a24ed4f7731a38ad662f5da5ab65a4e3a4[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 00:40:49 2022 +0700
+
+    bulk action and serach error
+
+[33mcommit f950d2e9a042736064eca615d97ed53839d35fd2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Jun 22 00:06:56 2022 +0700
+
+    finish edit create article
+
+[33mcommit 9008827adc553363e1b0b298eaa62362f0d0de56[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 21 22:40:36 2022 +0700
+
+    page edit article
+
+[33mcommit c315ef95ec75be68e58a443041656b3afba7fb25[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 21 22:20:20 2022 +0700
+
+    upload image article
+
+[33mcommit 06082ab4c08324a168a6e982d168e5a306623a7e[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 21 18:29:11 2022 +0700
+
+    add ckeditor and install filepond
+
+[33mcommit 40fe755aa44269c27290282131ce0a4055ef13e2[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue Jun 21 00:02:40 2022 +0700
+
+    layouts create article
+
+[33mcommit ae29b2b7e57b873e049284c004fbcc5afbb625be[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 23:22:47 2022 +0700
+
+    table article
+
+[33mcommit 690b0933a588f20096d844ebc6cd39c8e07d8f93[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 21:05:10 2022 +0700
+
+    install article package
+
+[33mcommit adc5ac6b622e67198dd1568c2f37279ab913169d[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 16:03:14 2022 +0700
+
+    add api current location
+
+[33mcommit a2139b5ae4943e617c59f773c6805835ff793860[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 15:04:34 2022 +0700
+
+    no list user add friend success
+
+[33mcommit 9ea9c6cb31518f3000d705119424d643dff84448[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 13:36:10 2022 +0700
+
+    unfriend
+
+[33mcommit 0979375742cbf817ee11456d7f06ad309a44c350[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 11:48:46 2022 +0700
+
+    PROFILE  friends menu
+
+[33mcommit 7f17e735201f9ed07fa07b34c262fd19cd6d2df0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon Jun 20 10:58:45 2022 +0700
+
+    PROFILE - About
+
+[33mcommit f94b7460ab14102351f749e6bbd13b77e871720a[m
+Merge: 3338ff7 1b7c222
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jun 19 19:54:59 2022 +0700
+
+    update image null profile
+
+[33mcommit 3338ff710970265c9e3fd85a000f6af2b26f6b62[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun Jun 19 19:51:41 2022 +0700
+
+    fix update profile image null
+
+[33mcommit 1b7c2220c154c4b5343a8f749a4965323a1f5ec7[m
+Author: Jarwonozt <67833034+jarwonozt@users.noreply.github.com>
+Date:   Thu Jun 16 23:07:28 2022 +0700
+
+    Update README.md
+
+[33mcommit bb25aa5d706e50e38aebf4c4db831c95750c6c52[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon May 30 00:42:04 2022 +0700
+
+    save new friends
+
+[33mcommit 7b4d3e3987eb0a149671a589d572eed37b4e7b04[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Mon May 30 00:10:43 2022 +0700
+
+    add friends Model
+
+[33mcommit 84116148776fc6a57489bbdc8c009275c7350544[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun May 29 22:43:52 2022 +0700
+
+    has one to social media user
+
+[33mcommit 8996d0e2738318d3441a72d3b70c107a1f214cde[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun May 29 22:36:42 2022 +0700
+
+    add sosial media model
+
+[33mcommit 7dd2dfb3758de9343f88f2a79ae6fa1ce4d899e1[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun May 29 21:15:43 2022 +0700
+
+    fix curd data information
+
+[33mcommit cb1ad8d53ba5e9f61ed6500f4ac4076d46bda939[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun May 29 20:11:00 2022 +0700
+
+    change information user
+
+[33mcommit aaf16a635d9526dd61c932d157e1b74b07abdf83[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sun May 29 02:00:41 2022 +0700
+
+    change password
+
+[33mcommit d173aff1a2bdb32c56f7aa4e1989b5d18e4083c0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat May 28 23:13:47 2022 +0700
+
+    update image profile
+
+[33mcommit 3882eaca4827e31a88d0f937f59190c47709bd44[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat May 28 20:22:18 2022 +0700
+
+    add guest permission for register user
+
+[33mcommit e5458e17f3a6e258eee52329470437149cbadcf5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat May 28 20:02:10 2022 +0700
+
+    update to laravel 9+
+
+[33mcommit 5c2ea1ef7ae0db2d25e91c99ac14623d2cb9e179[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Sat May 28 00:35:46 2022 +0700
+
+    fix update user and roles
+
+[33mcommit a368dd930d210832d404e5e9f8ca749c2a9e5f89[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Fri May 27 22:14:51 2022 +0700
+
+    ubah menu trashed
+
+[33mcommit 3572e25f83c2e63bac11d07a373adb38c465a9d5[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu May 26 23:17:35 2022 +0700
+
+    add new user store
+
+[33mcommit 2e0330d36d750e557ac58f99eb8eaa25afcf84a6[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu May 26 22:43:56 2022 +0700
+
+    add role and permission
+
+[33mcommit e74e2e823e7bfa0c44ac2632cfad79fe700017a9[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu May 26 18:04:04 2022 +0700
+
+    bulkaction - show user trashed
+
+[33mcommit 39bbb793c3e5df6f8d10b74a916b54b01056be84[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu May 26 17:42:32 2022 +0700
+
+    bulkaction - delete user
+
+[33mcommit 915cf9ce45e981bc39cf328d814ef6f4e92e7e42[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue May 17 01:32:33 2022 +0700
+
+    fix bulk action
+
+[33mcommit f1ec0363257499d1e46d0cc65bcf8ebe63f3464c[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Tue May 17 00:40:20 2022 +0700
+
+    test datatable users
+
+[33mcommit 186d43fcf8e1a4bc40766adda4f0ac4a54144803[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu May 5 21:19:03 2022 +0700
+
+    fix sidebar
+
+[33mcommit 941327fbfa2621641ae94271e80539d048e970f0[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Thu May 5 21:15:55 2022 +0700
+
+    test qr code
+
+[33mcommit 68e59886524bc8b392320a8ba665ef2314ea4d16[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Apr 20 17:02:46 2022 +0700
+
+    add datatable
+
+[33mcommit e4a8d6a4e3b7f7bf9173b15c092bd65f8b704c27[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Apr 20 14:49:53 2022 +0700
+
+    npm install
+
+[33mcommit 4401e5a897c079f9dc8d24de07c953e168ed40e3[m
+Author: jarwonozt <jarwonoztaveiro@gmail.com>
+Date:   Wed Apr 20 14:41:53 2022 +0700
+
+    first commit
