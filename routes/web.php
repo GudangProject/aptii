@@ -92,7 +92,7 @@ Route::group(['middleware' => ['role:anggota|super admin|writer|admin|peserta']]
 
     Route::prefix('cms')->group(function (){
         // data prosiding
-        Route::prefix('aptii')->group(function (){
+        Route::prefix('asosiasi')->group(function (){
             // menu peserta
             Route::resource('upload-naskah', NaskahController::class);
             Route::resource('upload-pembayaran', PembayaranController::class);
