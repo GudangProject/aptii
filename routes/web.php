@@ -80,7 +80,23 @@ Route::get('/anggota-detail', [ScreenController::class, 'anggota'])->name('anggo
 Route::get('/contact', [ScreenController::class, 'contact']);
 Route::get('/author', [ScreenController::class, 'author'])->name('author');
 
-// BACKEND DASHBOARD
+
+
+Route::group(['middleware' => ['role:super admin|admin']], function () {
+    Route::resource('users', UserController::class);
+    Route::get('/user/trashed', [UserController::class, 'showTrashed'])->name('usershowTrashed');
+
+    // role permission
+    Route::resource('role-permission', RolePermissionController::class);
+    Route::get('/permission', [RolePermissionController::class, 'createPermission'])->name('permission');
+});
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    // BACKEND DASHBOARD
 Route::group(['middleware' => ['role:anggota|super admin|writer|admin|peserta']], function () {
     Route::get('qrcodes', [QrCodeController::class, 'index']);
     Route::resource('friends', FriendsController::class);
@@ -92,7 +108,7 @@ Route::group(['middleware' => ['role:anggota|super admin|writer|admin|peserta']]
 
     Route::prefix('cms')->group(function (){
         // data prosiding
-        Route::prefix('aritekin')->group(function (){
+        Route::prefix('asosiasi')->group(function (){
             // menu peserta
             Route::resource('upload-naskah', NaskahController::class);
             Route::resource('upload-pembayaran', PembayaranController::class);
@@ -157,21 +173,6 @@ Route::group(['middleware' => ['role:anggota|super admin|writer|admin|peserta']]
 
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
-
-Route::group(['middleware' => ['role:super admin|admin']], function () {
-    Route::resource('users', UserController::class);
-    Route::get('/user/trashed', [UserController::class, 'showTrashed'])->name('usershowTrashed');
-
-    // role permission
-    Route::resource('role-permission', RolePermissionController::class);
-    Route::get('/permission', [RolePermissionController::class, 'createPermission'])->name('permission');
-});
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
     // Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 
