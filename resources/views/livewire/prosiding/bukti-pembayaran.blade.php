@@ -69,7 +69,14 @@
                                             <input type="checkbox" value="{{ $row->id }}" wire:model="selectData" id="a">
                                         </td>
                                         <td>{{ $row->getUser->name }}</td>
-                                        <td>{!! $row->category == 2 ? "<span class='badge badge-light-success'>PENGELOLA JURNAL</span>" : "<span class='badge badge-light-dark'>MEMBER</span>" !!}</td>
+                                        <td>
+                                            @if ($row->category == 2)
+                                                <span class='badge badge-light-primary'>PENGELOLA JURNAL</span>
+                                            @elseif ($row->category == 3)
+                                                <span class='badge badge-light-success'>MEMBER SK PENUNJUKAN</span>
+                                            @else
+                                                <span class='badge badge-light-dark'>MEMBER REGULER</span>
+                                            @endif
                                         <td>{{ $row->tanggal_bayar }}</td>
                                         <td>{{ $row->bank_pengirim }}</td>
                                         <td>Rp {{ number_format($row->jumlah) }}</td>

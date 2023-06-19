@@ -113,6 +113,7 @@ Route::group(['middleware' => ['role:anggota|super admin|writer|admin|peserta']]
             Route::resource('upload-naskah', NaskahController::class);
             Route::resource('upload-pembayaran', PembayaranController::class);
             Route::resource('activity', ActivityController::class);
+            Route::post('member-sk', [PembayaranController::class, 'memberSKPayment'])->name('member-sk');
             Route::post('activity_update', [ActivityController::class, 'setBudget'])->name('activity.setBudget');
             Route::resource('journal_collab', JournalCollabController::class);
 

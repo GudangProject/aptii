@@ -39,69 +39,75 @@
                                                     <div class="form-group">
                                                         <label><h5>Kategori Pembayaran</h5></label>
                                                         <select class="select2 form-control form-control-lg select2-hidden-accessible" id="category" name="category">
-                                                            <option value="" disabled selected>--- Pilih ---</option>
-                                                            <option value="1">Member</option>
+                                                            <option disabled selected>--- Pilih ---</option>
+                                                            <option value="1">Member Reguler</option>
                                                             <option value="2">Pengelola Jurnal</option>
+                                                            <option value="3">Member SK Penunjukan</option>
                                                         </select>
                                                     </div>
-                                                    {{-- <div class="form-group" id="naskah">
-                                                        <label><h5>Naskah</h5> Berikut adalah data naskah dengan status <b>Menunggu Pembayaran</b></label>
-                                                        <select class="select2 form-control form-control-lg select2-hidden-accessible" name="naskah">
-                                                            <option value="" disabled selected>--- Pilih ---</option>
-                                                            @foreach ($dataNaskah as $item)
-                                                                <option value="{{ $item->id }}">{{ $item->judul }}</option>
-                                                            @endforeach
-                                                        </select>
-                                                    </div> --}}
-                                                    <div class="form-group">
-                                                        <label><h5>Nomor Transaksi</h5></label>
-                                                        <input type="text" name="no_transaksi" class="form-control" placeholder="Nomor Transaksi Dari Bank" required>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label><h5>Tanggal Bayar</h5></label>
-                                                                <input type="date" name="tanggal_bayar" class="form-control" placeholder="Tanggal Bayar" required>
+                                                    <div id='payment'>
+                                                        <div class="form-group">
+                                                            <label><h5>Nomor Transaksi</h5></label>
+                                                            <input type="text" name="no_transaksi" class="form-control" placeholder="Nomor Transaksi Dari Bank" required>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <div class="form-group">
+                                                                    <label><h5>Tanggal Bayar</h5></label>
+                                                                    <input type="date" name="tanggal_bayar" class="form-control" placeholder="Tanggal Bayar" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <div class="form-group">
+                                                                    <label><h5>Jumlah Bayar RP</h5></label>
+                                                                    <input type="text" name="jumlah_bayar" class="form-control" placeholder="0" required>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-6">
-                                                            <div class="form-group">
-                                                                <label><h5>Jumlah Bayar RP</h5></label>
-                                                                <input type="text" name="jumlah_bayar" class="form-control" placeholder="0" required>
+                                                        <div class="form-group">
+                                                            <label><h5>Nama Pengirim</h5></label>
+                                                            <input type="text" name="nama_pengirim" class="form-control" placeholder="Cth: Andi Mahendra" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label><h5>Bank Pengirim</h5></label>
+                                                            <input type="text" name="bank_pengirim" class="form-control" placeholder="Cth: Mandiri" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label><h5>Rekening Tujuan</h5></label>
+                                                            <select class="select2 form-control form-control-lg select2-hidden-accessible" name="rekening_tujuan">
+                                                                <option value="" disabled selected>--- Pilih ---</option>
+                                                                @foreach ($dataRekening as $rekening)
+                                                                    <option value="{{ $rekening->id }}">{{ $rekening->bank }} - {{ $rekening->rekening }} a/n {{ $rekening->nama }}</option>
+                                                                @endforeach
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label><h5>Keterangan</h5></label>
+                                                            <textarea class="form-control" name="keterangan" placeholder="Cth: Biaya pendaftaran ..." rows=3" required></textarea>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label><h5>Bukti Bayar</h5></label>
+                                                            <div class="custom-file">
+                                                                <input type="file" class="custom-file-input" name="photo" id="customFile" accept="image/*"/>
+                                                                <label class="custom-file-label" for="customFile">Pilih File</label>
                                                             </div>
                                                         </div>
+                                                        <button type="submit" class="btn btn-primary mt-2"><i data-feather="arrow-up-circle"></i> UPLOAD</button>
                                                     </div>
-                                                    <div class="form-group">
-                                                        <label><h5>Nama Pengirim</h5></label>
-                                                        <input type="text" name="nama_pengirim" class="form-control" placeholder="Cth: Andi Mahendra" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label><h5>Bank Pengirim</h5></label>
-                                                        <input type="text" name="bank_pengirim" class="form-control" placeholder="Cth: Mandiri" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label><h5>Rekening Tujuan</h5></label>
-                                                        <select class="select2 form-control form-control-lg select2-hidden-accessible" name="rekening_tujuan">
-                                                            <option value="" disabled selected>--- Pilih ---</option>
-                                                            @foreach ($dataRekening as $rekening)
-                                                                <option value="{{ $rekening->id }}">{{ $rekening->bank }} - {{ $rekening->rekening }} a/n {{ $rekening->nama }}</option>
-                                                            @endforeach
-                                                        </select>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label><h5>Keterangan</h5></label>
-                                                        <textarea class="form-control" name="keterangan" placeholder="Cth: Biaya pendaftaran ..." rows=3" required></textarea>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label><h5>Bukti Bayar</h5></label>
-                                                        <div class="custom-file">
-                                                            <input type="file" class="custom-file-input" name="photo" id="customFile" accept="image/*"/>
-                                                            <label class="custom-file-label" for="customFile">Pilih File</label>
-                                                        </div>
-                                                    </div>
-                                                    <button type="submit" class="btn btn-primary mt-2"><i data-feather="arrow-up-circle"></i> UPLOAD</button>
                                                 </div>
                                             </form>
+                                            <div id="sk">
+                                                <form action="{{ route('member-sk') }}" method="post">
+                                                    @csrf
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label><h5>Keterangan/Lampirkan link SK Penunjukan</h5></label>
+                                                            <textarea class="form-control" name="keterangan" rows=3" required></textarea>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary mt-2"><i data-feather="arrow-up-circle"></i> UPLOAD</button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -134,16 +140,18 @@
                                         }
                                     })
                                 </script>
-                                {{-- <script>
-                                    $('#naskah').hide();
+                                <script>
+                                    $('#sk').hide();
                                     $('#category').on('change', function () {
-                                        if (this.value == 2) {
-                                            $('#naskah').show();
+                                        if (this.value == 3) {
+                                            $('#payment').hide();
+                                            $('#sk').show();
                                         }else{
-                                            $('#naskah').hide();
+                                            $('#payment').show();
+                                            $('#sk').hide();
                                         }
                                     });
-                                </script> --}}
+                                </script>
                             @endpush
                         </div>
                     </div>

@@ -75,11 +75,27 @@
                                         <td>{{ $row->getUser->name }}</td>
                                         <td>{{ $row->getUser->company }}</td>
                                         <td>
-                                            @if ($row->category == 2)
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-{{ $row->category == 1 ? 'secondary' : ($row->category == 3 ? 'success' : 'primary') }} waves-effect waves-float waves-light">{{ $row->category == 1 ? 'MEMBER REGULER' : ($row->category == 3 ? 'MEMBER SK PENGAJUAN' : 'PENGELOLA JURNAL') }}</button>
+                                                @role('admin|super admin')
+                                                <button type="button" class="btn btn-sm btn-dark dropdown-toggle dropdown-toggle-split waves-effect waves-float waves-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="sr-only">Toggle Dropdown</span>
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-right" style="">
+                                                    <h6 class="dropdown-header">Ubah Kategori</h6>
+                                                    <a class="dropdown-item" href="javascript:void(0);" wire:click='changeRole({{ $row->id }}, 1)'>MEMBER REGULER</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);" wire:click='changeRole({{ $row->id }}, 2)'>PENGELOLA JURNAL</a>
+                                                    <a class="dropdown-item" href="javascript:void(0);" wire:click='changeRole({{ $row->id }}, 3)'>MEMBER SK PENUNJUKAN</a>
+                                                </div>
+                                                @endrole
+                                            </div>
+                                            {{-- @if ($row->category == 2)
                                                 <a href='#' wire:click='changeRole({{ $row->id }}, 1)' class='badge badge-light-success'>PENGELOLA JURNAL</a>
+                                            @elseif($row->category == 3)
+                                                <a href="#" wire:click='changeRole({{ $row->id }}, 2)' class='badge badge-light-dark'>MEMBER SK PENUNJUKAN</a>
                                             @else
                                                 <a href="#" wire:click='changeRole({{ $row->id }}, 2)' class='badge badge-light-dark'>MEMBER</a>
-                                            @endif
+                                            @endif --}}
                                         </td>
                                         {{-- <td>{!! $row->category == 2 ? "<span class='badge badge-light-success'>PENGELOLA JURNAL</span>" : "<span class='badge badge-light-dark'>MEMBER</span>" !!}</td> --}}
                                         <td>{{ $row->tanggal_bayar }}</td>

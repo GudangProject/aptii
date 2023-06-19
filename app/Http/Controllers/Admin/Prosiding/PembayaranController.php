@@ -91,4 +91,32 @@ class PembayaranController extends Controller
         return view('admin.asosiasi.bukti-pembayaran.index');
     }
 
+    public function memberSKPayment(Request $request)
+    {
+
+        try {
+
+            $save                   = new ProsidingPembayaran();
+            $save->user_id          = auth()->user()->id;
+            $save->category         = 3;
+            $save->no_transaksi     = 0;
+            $save->tanggal_bayar    = now();
+            $save->jumlah           = 0;
+            $save->nama_pengirim    = 'none';
+            $save->bank_pengirim    = 'none';
+            $save->rekening_tujuan  = 0;
+            $save->keterangan       = $request->keterangan;
+            $save->status           = 0;
+            $save->photo            = 0;
+            $save->save();
+
+            Alert::success('Success', 'Bukti member SK Penunjukan berhasil diupload !');
+            return redirect()->route('asosiasi.bukti-pembayaran');
+
+        } catch (Exception $error) {
+            dd($error->getMessage());
+            Alert::error('Error', $error->getMessage());
+            return back();
+        }
+    }
 }

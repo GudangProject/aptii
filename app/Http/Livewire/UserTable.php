@@ -22,6 +22,7 @@ use Maatwebsite\Excel\Facades\Excel;
 class UserTable extends DataTableComponent
 {
     public array $users1 = [];
+    public $selected_id;
 
     public $columnSearch = [
         'name' => null,
